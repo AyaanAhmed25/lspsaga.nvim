@@ -71,7 +71,7 @@ function M.spinner()
   local timer = uv.new_timer()
   local bufnr, winid = win
     :new_float({
-      width = 10,
+      width = 20,
       height = 1,
       border = 'solid',
       focusable = false,
