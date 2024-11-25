@@ -134,7 +134,7 @@ function M.close_win(winid)
 end
 
 function M.get_max_float_width(percent)
-  percent = percent or 0.6
+  percent = percent or 0.9
   return math.floor(vim.o.columns * percent)
 end
 
